@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b8acbcb3-81c6-4ece-bc0e-005c5c48d62b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Recursion.py</StartupFile>
+    <StartupFile>Fetch.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Cryptography.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Fetch.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Graphen.py">
